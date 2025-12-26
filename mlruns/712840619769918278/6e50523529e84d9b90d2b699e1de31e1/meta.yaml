@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/CustomerGuard/mlruns/712840619769918278/6e50523529e84d9b90d2b699e1de31e1/artifacts
+end_time: 1766687346545
+entry_point_name: ''
+experiment_id: '712840619769918278'
+lifecycle_stage: active
+run_id: 6e50523529e84d9b90d2b699e1de31e1
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766687341762
+status: 3
+tags: []
+user_id: HP

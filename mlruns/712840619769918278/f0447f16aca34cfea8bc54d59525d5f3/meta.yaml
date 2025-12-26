@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/CustomerGuard/mlruns/712840619769918278/f0447f16aca34cfea8bc54d59525d5f3/artifacts
+end_time: 1766687341746
+entry_point_name: ''
+experiment_id: '712840619769918278'
+lifecycle_stage: active
+run_id: f0447f16aca34cfea8bc54d59525d5f3
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766687302405
+status: 3
+tags: []
+user_id: HP

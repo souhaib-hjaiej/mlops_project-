@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/HP/Desktop/CustomerGuard/mlruns/712840619769918278/models/m-5c15d34e277e4217b53b08f2fcef523c/artifacts
+creation_timestamp: 1766687335478
+experiment_id: '712840619769918278'
+last_updated_timestamp: 1766687341704
+model_id: m-5c15d34e277e4217b53b08f2fcef523c
+model_type: null
+name: model
+source_run_id: f0447f16aca34cfea8bc54d59525d5f3
+status: 2
+status_message: null
