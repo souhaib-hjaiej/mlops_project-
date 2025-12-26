@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/CustomerGuard/mlruns/712840619769918278/d06927b1761d4bdcab1f4c474ab69af4/artifacts
+end_time: 1766770403910
+entry_point_name: ''
+experiment_id: '712840619769918278'
+lifecycle_stage: active
+run_id: d06927b1761d4bdcab1f4c474ab69af4
+run_name: useful-mole-210
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766770395288
+status: 3
+tags: []
+user_id: HP

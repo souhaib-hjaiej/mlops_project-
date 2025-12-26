@@ -58,7 +58,6 @@ def preprocess(data):
 
     return X, y
 
-
 @task
 def train_model(X, y):
     X_train, X_test, y_train, y_test = train_test_split(
@@ -71,6 +70,9 @@ def train_model(X, y):
     preds = model.predict(X_test)
     acc = accuracy_score(y_test, preds)
 
+    # Save feature names for production
+    joblib.dump(X_train.columns.tolist(), "models/features.pkl")
+
     return model, acc
 
 @task
@@ -81,6 +83,7 @@ def log_experiment(model, acc):
         mlflow.log_metric("accuracy", acc)
         mlflow.sklearn.log_model(model, "model")
 
+    # Save the trained model locally
     joblib.dump(model, "models/churn_model.pkl")
 
 # =========================
